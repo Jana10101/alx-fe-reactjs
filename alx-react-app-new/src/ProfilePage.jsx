@@ -5,3 +5,8 @@ function ProfilePage() {
 }
 
 export default ProfilePage;
+import UserInfo from './UserInfo';
+
+function ProfilePage() {
+  return <UserInfo />;
+}
