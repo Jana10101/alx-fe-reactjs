@@ -5,6 +5,21 @@ import './App.css'
 import { RecipeList } from './components/RecipeList';
 import { AddRecipeForm } from './components/AddRecipeForm';
 
+import { RecipeList } from './components/RecipeList';
+import { AddRecipeForm } from './components/AddRecipeForm';
+
+function App() {
+  return (
+    <div className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold mb-6 text-center">Recipe Sharing App</h1>
+      <div className="max-w-2xl mx-auto">
+        <AddRecipeForm />
+        <RecipeList />
+      </div>
+    </div>
+  );
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
