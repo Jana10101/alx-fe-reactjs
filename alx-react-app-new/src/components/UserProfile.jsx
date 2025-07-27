@@ -17,7 +17,7 @@ const UserProfile = (props) => {
   );
 };
 
-export default UserProfile;
+
 function UserProfile(props) {
   return (
     <div style={{ border: '1px solid gray', padding: '10px', margin: '10px', borderRadius: '10px', backgroundColor: '#f9f9f9' }}>
@@ -27,3 +27,18 @@ function UserProfile(props) {
     </div>
   );
 }
+import { useContext } from 'react';
+import UserContext from './UserContext';
+
+function UserProfile() {
+  const userData = useContext(UserContext);
+
+  return (
+    <div style={{ border: '1px solid gray', padding: '20px', margin: '20px' }}>
+      <p>Name: {userData.name}</p>
+      <p>Email: {userData.email}</p>
+    </div>
+  );
+}
+
+export default UserProfile;
