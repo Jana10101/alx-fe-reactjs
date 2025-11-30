@@ -6,12 +6,14 @@ import WelcomeMessage from './components/WelcomeMessage.jsx'
 import Header from './src/components/Header.jsx';
 import MainContent from './src/components/MainContent.jsx';
 import Footer from './src/components/Footer.jsx';
+import UserProfile from './src/components/UserProfile.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <Header />
       <MainContent />
       <Footer />
