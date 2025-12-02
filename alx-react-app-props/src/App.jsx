@@ -8,7 +8,7 @@ import MainContent from './src/components/MainContent.jsx';
 import Footer from './src/components/Footer.jsx';
 import UserProfile from './src/components/UserProfile.jsx';
 import ProfilePage from './ProfilePage';
-import { UserContext } from './UserContext.js'
+import { UserContext } from './UserContext/UserContext.js'
 import ProfilePage from "./components/ProfilePage";
 import { UserContext } from "./context/UserContext";
 
