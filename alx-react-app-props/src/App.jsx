@@ -12,9 +12,14 @@ import { UserContext } from './UserContext.js'
 import ProfilePage from "./components/ProfilePage";
 import { UserContext } from "./context/UserContext";
 
+// src/App.jsx
+import ProfilePage from "./ProfilePage";
+// import default export
+import UserContext from "./UserContext";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
   const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
   
   return (
