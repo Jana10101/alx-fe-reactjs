@@ -8,7 +8,7 @@ import Navbar from './components/Navbar.jsx';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home.jsx';
 import About from './About.jsx';
-import Contact from './Contact.jsx';
+import Contact from './components/Contact.jsx';
 import Services from './Services.jsx';
 
 
